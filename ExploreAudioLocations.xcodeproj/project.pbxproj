@@ -7,12 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55374EA61B61A3CE00D8B015 /* Turdus-migratorius.png in Resources */ = {isa = PBXBuildFile; fileRef = 55374EA51B61A3CE00D8B015 /* Turdus-migratorius.png */; };
+		55374EA81B61A3D900D8B015 /* Turdus-migratorius-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 55374EA71B61A3D900D8B015 /* Turdus-migratorius-thumbnail.png */; };
+		554AE4FF1B5BFA3A0049B529 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554AE4FE1B5BFA3A0049B529 /* SoundPlayer.swift */; };
+		555F55D21B5FD9A9007DA968 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F55D11B5FD9A9007DA968 /* SwiftyJSON.swift */; };
+		555F55D41B5FDB3C007DA968 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F55D31B5FDB3C007DA968 /* ModelController.swift */; };
+		55985B431B5878AC00F43603 /* Turdus-migratorius-Call.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55985B421B5878AC00F43603 /* Turdus-migratorius-Call.wav */; };
+		55985B451B5878EB00F43603 /* Turdus-migratorius-Song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55985B441B5878EB00F43603 /* Turdus-migratorius-Song.wav */; };
+		55AD28401B61603C00558C89 /* Troglodytes-aedon-Song.wav in Resources */ = {isa = PBXBuildFile; fileRef = 55AD283F1B61603C00558C89 /* Troglodytes-aedon-Song.wav */; };
+		55AD28421B61605B00558C89 /* Troglodytes-aedon.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD28411B61605B00558C89 /* Troglodytes-aedon.png */; };
+		55AD28441B61606200558C89 /* Troglodytes-aedon-thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 55AD28431B61606200558C89 /* Troglodytes-aedon-thumbnail.png */; };
 		55D2F6D81B58141000A89174 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2F6D71B58141000A89174 /* AppDelegate.swift */; };
 		55D2F6DA1B58141000A89174 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2F6D91B58141000A89174 /* ViewController.swift */; };
 		55D2F6DD1B58141000A89174 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55D2F6DB1B58141000A89174 /* Main.storyboard */; };
 		55D2F6DF1B58141000A89174 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D2F6DE1B58141000A89174 /* Images.xcassets */; };
 		55D2F6E21B58141000A89174 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55D2F6E01B58141000A89174 /* LaunchScreen.xib */; };
 		55D2F6EE1B58141000A89174 /* ExploreAudioLocationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2F6ED1B58141000A89174 /* ExploreAudioLocationsTests.swift */; };
+		55D2F6F81B583E9400A89174 /* BirdSoundLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2F6F71B583E9400A89174 /* BirdSoundLocation.swift */; };
+		55D2F6FA1B58403E00A89174 /* MKBirdSoundLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2F6F91B58403E00A89174 /* MKBirdSoundLocation.swift */; };
+		55D2F6FC1B58527C00A89174 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D2F6FB1B58527C00A89174 /* SoundViewController.swift */; };
+		55F7AE971B5F3A6800D230A8 /* BirdRecordings.json in Resources */ = {isa = PBXBuildFile; fileRef = 55F7AE961B5F3A6800D230A8 /* BirdRecordings.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55374EA51B61A3CE00D8B015 /* Turdus-migratorius.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Turdus-migratorius.png"; sourceTree = "<group>"; };
+		55374EA71B61A3D900D8B015 /* Turdus-migratorius-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Turdus-migratorius-thumbnail.png"; sourceTree = "<group>"; };
+		554AE4FE1B5BFA3A0049B529 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		555F55D11B5FD9A9007DA968 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		555F55D31B5FDB3C007DA968 /* ModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		55985B421B5878AC00F43603 /* Turdus-migratorius-Call.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Turdus-migratorius-Call.wav"; sourceTree = "<group>"; };
+		55985B441B5878EB00F43603 /* Turdus-migratorius-Song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Turdus-migratorius-Song.wav"; sourceTree = "<group>"; };
+		55AD283F1B61603C00558C89 /* Troglodytes-aedon-Song.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Troglodytes-aedon-Song.wav"; sourceTree = "<group>"; };
+		55AD28411B61605B00558C89 /* Troglodytes-aedon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Troglodytes-aedon.png"; sourceTree = "<group>"; };
+		55AD28431B61606200558C89 /* Troglodytes-aedon-thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Troglodytes-aedon-thumbnail.png"; sourceTree = "<group>"; };
 		55D2F6D21B58141000A89174 /* ExploreAudioLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExploreAudioLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D2F6D61B58141000A89174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D2F6D71B58141000A89174 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +60,10 @@
 		55D2F6E71B58141000A89174 /* ExploreAudioLocationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExploreAudioLocationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D2F6EC1B58141000A89174 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55D2F6ED1B58141000A89174 /* ExploreAudioLocationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreAudioLocationsTests.swift; sourceTree = "<group>"; };
+		55D2F6F71B583E9400A89174 /* BirdSoundLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirdSoundLocation.swift; sourceTree = "<group>"; };
+		55D2F6F91B58403E00A89174 /* MKBirdSoundLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MKBirdSoundLocation.swift; sourceTree = "<group>"; };
+		55D2F6FB1B58527C00A89174 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		55F7AE961B5F3A6800D230A8 /* BirdRecordings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BirdRecordings.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		554AE5001B5C63290049B529 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55D2F6D91B58141000A89174 /* ViewController.swift */,
+				55D2F6FB1B58527C00A89174 /* SoundViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		554AE5011B5C63450049B529 /* Model Objects */ = {
+			isa = PBXGroup;
+			children = (
+				55D2F6F71B583E9400A89174 /* BirdSoundLocation.swift */,
+				55D2F6F91B58403E00A89174 /* MKBirdSoundLocation.swift */,
+				555F55D31B5FDB3C007DA968 /* ModelController.swift */,
+			);
+			name = "Model Objects";
+			sourceTree = "<group>";
+		};
+		555F55D01B5FD994007DA968 /* Swifty JSON */ = {
+			isa = PBXGroup;
+			children = (
+				555F55D11B5FD9A9007DA968 /* SwiftyJSON.swift */,
+			);
+			name = "Swifty JSON";
+			sourceTree = "<group>";
+		};
+		55985B411B58726E00F43603 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55AD28411B61605B00558C89 /* Troglodytes-aedon.png */,
+				55AD28431B61606200558C89 /* Troglodytes-aedon-thumbnail.png */,
+				55AD283F1B61603C00558C89 /* Troglodytes-aedon-Song.wav */,
+				55374EA51B61A3CE00D8B015 /* Turdus-migratorius.png */,
+				55374EA71B61A3D900D8B015 /* Turdus-migratorius-thumbnail.png */,
+				55985B441B5878EB00F43603 /* Turdus-migratorius-Song.wav */,
+				55985B421B5878AC00F43603 /* Turdus-migratorius-Call.wav */,
+				55F7AE961B5F3A6800D230A8 /* BirdRecordings.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		55D2F6C91B58141000A89174 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +147,12 @@
 		55D2F6D41B58141000A89174 /* ExploreAudioLocations */ = {
 			isa = PBXGroup;
 			children = (
+				555F55D01B5FD994007DA968 /* Swifty JSON */,
+				554AE5011B5C63450049B529 /* Model Objects */,
+				554AE5001B5C63290049B529 /* View Controllers */,
+				55985B411B58726E00F43603 /* Resources */,
+				554AE4FE1B5BFA3A0049B529 /* SoundPlayer.swift */,
 				55D2F6D71B58141000A89174 /* AppDelegate.swift */,
-				55D2F6D91B58141000A89174 /* ViewController.swift */,
 				55D2F6DB1B58141000A89174 /* Main.storyboard */,
 				55D2F6DE1B58141000A89174 /* Images.xcassets */,
 				55D2F6E01B58141000A89174 /* LaunchScreen.xib */,
@@ -193,8 +267,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				55D2F6DD1B58141000A89174 /* Main.storyboard in Resources */,
+				55374EA61B61A3CE00D8B015 /* Turdus-migratorius.png in Resources */,
+				55AD28441B61606200558C89 /* Troglodytes-aedon-thumbnail.png in Resources */,
+				55AD28401B61603C00558C89 /* Troglodytes-aedon-Song.wav in Resources */,
+				55AD28421B61605B00558C89 /* Troglodytes-aedon.png in Resources */,
+				55374EA81B61A3D900D8B015 /* Turdus-migratorius-thumbnail.png in Resources */,
 				55D2F6E21B58141000A89174 /* LaunchScreen.xib in Resources */,
+				55F7AE971B5F3A6800D230A8 /* BirdRecordings.json in Resources */,
+				55985B431B5878AC00F43603 /* Turdus-migratorius-Call.wav in Resources */,
 				55D2F6DF1B58141000A89174 /* Images.xcassets in Resources */,
+				55985B451B5878EB00F43603 /* Turdus-migratorius-Song.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +294,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D2F6F81B583E9400A89174 /* BirdSoundLocation.swift in Sources */,
 				55D2F6DA1B58141000A89174 /* ViewController.swift in Sources */,
 				55D2F6D81B58141000A89174 /* AppDelegate.swift in Sources */,
+				555F55D41B5FDB3C007DA968 /* ModelController.swift in Sources */,
+				555F55D21B5FD9A9007DA968 /* SwiftyJSON.swift in Sources */,
+				55D2F6FA1B58403E00A89174 /* MKBirdSoundLocation.swift in Sources */,
+				554AE4FF1B5BFA3A0049B529 /* SoundPlayer.swift in Sources */,
+				55D2F6FC1B58527C00A89174 /* SoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +499,7 @@
 				55D2F6F31B58141000A89174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55D2F6F41B58141000A89174 /* Build configuration list for PBXNativeTarget "ExploreAudioLocationsTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +508,7 @@
 				55D2F6F61B58141000A89174 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

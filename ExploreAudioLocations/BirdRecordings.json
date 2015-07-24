@@ -1,0 +1,101 @@
+{
+    "data": [
+             {
+             "id": 1,
+             "birdCommonName": "American Robin",
+             "birdScientificName": "Turdus migratorius",
+             "picture": {
+             "title": "",
+             "description": "",
+             "date": "July 15, 2015",
+             "file": "Turdus-migratorius.png",
+             "thumbnail": "Turdus-migratorius-thumbnail.png",
+             "phtotgrapher": "Unknown",
+             "location": {
+             "latitude": "41.962608",
+             "longitude": "-87.633458",
+             "elevation": "601.0"
+             },
+             
+             },
+             "sound": {
+             "title": "",
+             "description": "",
+             "date": "July 15, 2015",
+             "type": "Song",
+             "file": "Turdus-migratorius-Song",
+             "recorist": "Unknown",
+             "location": {
+             "latitude": "41.962608",
+             "longitude": "-87.633458",
+             "elevation": "601.0"
+             }
+             }
+             },
+             {
+             "id": 2,
+             "birdCommonName": "American Robin",
+             "birdScientificName": "Turdus migratorius",
+             "picture": {
+             "title": "",
+             "description": "",
+             "date": "July 15, 2015",
+             "file": "Turdus-migratorius.png",
+             "thumbnail": "Turdus-migratorius-thumbnail.png",
+             "phtotgrapher": "Unknown",
+             "location": {
+             "latitude": "41.963264",
+             "longitude": "-87.634456",
+             "elevation": "634.0"
+             },
+             
+             },
+             "sound": {
+             "title": "",
+             "description": "",
+             "date": "July 15, 2015",
+             "type": "Call",
+             "file": "Turdus-migratorius-Call",
+             "recorist": "Unknown",
+             "location": {
+             "latitude": "41.963264",
+             "longitude": "-87.634456",
+             "elevation": "634.0"
+             }
+             }
+             },
+             {
+             "id": 3,
+             "birdCommonName": "House Wren",
+             "birdScientificName": "Troglodytes-aedon",
+             "picture": {
+             "title": "",
+             "description": "",
+             "date": "July 15, 2015",
+             "file": "Troglodytes-aedon.png",
+             "thumbnail": "Troglodytes-aedon-thumbnail.png",
+             "phtotgrapher": "Unknown",
+             "location": {
+             "latitude": "41.963072",
+             "longitude": "-87.632314",
+             "elevation": "617.0"
+             },
+             
+             },
+             "sound": {
+             "title": "",
+             "description": "",
+             "date": "July 15, 2015",
+             "type": "Song",
+             "file": "Troglodytes-aedon-Song",
+             "recorist": "Unknown",
+             "location": {
+             "latitude": "41.963072",
+             "longitude": "-87.632314",
+             "elevation": "617.0"
+             }
+             }
+             }
+             ]
+}
+
