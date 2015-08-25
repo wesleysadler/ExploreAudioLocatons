@@ -11,9 +11,9 @@ import AVFoundation
 
 class SoundPlayer {
     
-    var audioPlayer = AVAudioPlayer()
+    private var audioPlayer = AVAudioPlayer()
     
-    init?(birdSoundLocation:BirdSoundLocation) {
+    init?(birdSoundLocation:BirdSoundLocation, inout error: NSError?) {
         
         // get path to sound file
         let soundFilePath = NSBundle.mainBundle().pathForResource(birdSoundLocation.soundFile, ofType: "wav")
@@ -22,11 +22,10 @@ class SoundPlayer {
             // transform sound file path to url
             let fileUrl = NSURL(fileURLWithPath: soundFile)
             
-            var error:NSError?
             audioPlayer = AVAudioPlayer(contentsOfURL: fileUrl, error: &error)
             
             if let playerError = error {
-                println("Error - Sound Player Setup \(fileUrl)")
+//                println("Error - Sound Player Setup \(fileUrl)")
                 return nil
             }
             
@@ -34,7 +33,7 @@ class SoundPlayer {
             audioPlayer.prepareToPlay()
             
         } else {
-            println("Error - Sound File Not Found")
+//            println("Error - Sound File Not Found")
             return nil
         }
     }

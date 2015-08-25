@@ -68,15 +68,11 @@ class SoundViewController: UIViewController
         super.viewWillDisappear(animated)
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-    func setupAudioPlayer()
+    private func setupAudioPlayer()
     {
         if let localBirdSoundLocation = self.birdSoundLocation {
-            self.audioPlayer = SoundPlayer(birdSoundLocation: localBirdSoundLocation)
+            var error: NSError?
+            self.audioPlayer = SoundPlayer(birdSoundLocation: localBirdSoundLocation, error: &error)
             //init the Player to get file properties to set the time labels
             
             if let localAudioPlayer = self.audioPlayer {
@@ -103,8 +99,10 @@ class SoundViewController: UIViewController
                 //        self.volumeSlider.value = volume!
                 
             } else {
-                
-                // error message should be displayed
+                let errorText = error?.description ?? "Error setting up audio player"
+                let alertMessage = UIAlertController(title: "Error Audio Player", message: errorText, preferredStyle: .Alert)
+                alertMessage.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+                self.presentViewController(alertMessage, animated: true, completion: nil)
                 self.timeElapsed.text = Constants.InitialTimeString
                 self.timeLeft.text = Constants.InitialTimeString
                 self.playButton.enabled = false
@@ -113,7 +111,7 @@ class SoundViewController: UIViewController
         }
     }
     
-    func setupViewLabels() {
+    private func setupViewLabels() {
         if let localBirdSoundLocation = self.birdSoundLocation {
 
             self.birdNameLabel.text = localBirdSoundLocation.name
@@ -182,7 +180,7 @@ class SoundViewController: UIViewController
         }
     }
     
-    func stringFromTimeInterval(interval: NSTimeInterval) -> NSString {
+    private func stringFromTimeInterval(interval: NSTimeInterval) -> NSString {
         
         var time = NSInteger(interval)
         var seconds = time % 60

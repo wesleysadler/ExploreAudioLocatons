@@ -60,7 +60,10 @@ class ViewController: UIViewController, MKMapViewDelegate {
             ModelController.getBirdSoundLocations { (soundLocations: [BirdSoundLocation], error: NSError? ) -> Void in
                 dispatch_async(dispatch_get_main_queue()) {
                     if let localError = error {
-                        // show alert controller
+                        let alertMessage = UIAlertController(title: "Error Getting Bird Sound Locations", message: error?.description, preferredStyle: .Alert)
+                        alertMessage.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
+                        self.presentViewController(alertMessage, animated: true, completion: nil)
+                        
                     } else {
                         self.handleAudioAnnotations(soundLocations)
                     }
